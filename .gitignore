@@ -1,0 +1,12 @@
+node_modules/
+dist/
+build/
+.output/
+.svelte-kit/
+.astro/
+.angular/
+.wrangler/
+*.log
+.DS_Store
+.env
+.env.*.local

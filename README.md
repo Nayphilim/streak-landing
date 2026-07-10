@@ -2,24 +2,32 @@
 
 > The habit app that doesn't nag.
 
-A concept client site — part of the [Nathan AI Solutions](https://github.com/Nayphilim) portfolio,
-showcasing a production-quality build in a specific modern stack.
+A concept habit-app marketing site — part of the
+[Nathan AI Solutions](https://github.com/Nayphilim) portfolio, built with zero UI framework to
+show off the web platform itself.
 
-**Stack:** Vite + vanilla TypeScript
+**Stack:** Vite + vanilla TypeScript, pure-CSS illustration (no images).
 
 ## About
 
-A playful habit-app marketing site built with zero framework — an interactive phone demo, pure-CSS animated mascots, and hand-rolled scroll effects. Neo-brutalist and warm.
+A playful, neo-brutalist launch page. Everything is hand-built: the tap-to-check-in phone demo
+(tick the walk → confetti burst, the streak bumps 12→13, a celebration card pops), the CSS-only
+animated mascots, an FAQ accordion, a marquee, and scroll-reveal animations — no framework runtime.
 
-## Status
+## Develop
 
-🚧 **In progress.** This repository is initialised; the full build lands in its portfolio
-phase. The live demo will be linked here once deployed.
+```bash
+npm install
+make dev      # Vite dev server (http://localhost:5173)
+make lint     # tsc + prettier
+make test     # vitest (check-in state machine)
+make build    # static build → dist/
+```
 
 ## Notes
 
-- The brand, copy, and imagery are fictional concept work created for portfolio purposes.
-- Any photography is used under the Unsplash license and credited in `CREDITS.md`.
+- Brand, copy, and imagery are fictional concept work for portfolio purposes; not a real product.
+- No photography — every illustration is CSS.
 
 ## License
 

@@ -159,6 +159,10 @@ input::placeholder {
   }
 }
 
+.wrap {
+  padding-inline: max(40px, calc((100% - 1240px) / 2)) !important;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

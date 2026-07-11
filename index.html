@@ -15,6 +15,7 @@
   </head>
   <body>
     <nav
+      class="wrap"
       style="
         display: flex;
         justify-content: space-between;
@@ -57,7 +58,7 @@
 
     <main id="top">
       <section
-        class="hero-grid"
+        class="hero-grid wrap"
         style="
           display: grid;
           grid-template-columns: 1.15fr 1fr;
@@ -612,7 +613,7 @@
         </div>
       </div>
 
-      <section id="how" style="padding: 64px 40px">
+      <section id="how" class="wrap" style="padding: 64px 40px">
         <h2 style="margin-bottom: 32px; font-size: 40px; font-weight: 800; letter-spacing: -0.03em">
           Three steps. That's the app.
         </h2>
@@ -950,7 +951,7 @@
       </section>
 
       <section
-        class="gentle-grid"
+        class="gentle-grid wrap"
         style="
           display: grid;
           grid-template-columns: 1fr 1fr;
@@ -1170,7 +1171,11 @@
         </div>
       </section>
 
-      <section id="reviews" style="background: var(--ink); color: var(--cream); padding: 64px 40px">
+      <section
+        id="reviews"
+        class="wrap"
+        style="background: var(--ink); color: var(--cream); padding: 64px 40px"
+      >
         <div
           style="
             display: flex;
@@ -1285,7 +1290,9 @@
       <section
         id="download"
         style="
-          margin: 0 40px 64px;
+          margin: 0 auto 64px;
+          max-width: 1240px;
+          width: calc(100% - 80px);
           background: var(--orange);
           border: 2px solid var(--ink);
           border-radius: 28px;
@@ -1586,6 +1593,7 @@
     </main>
 
     <footer
+      class="wrap"
       style="
         border-top: 1.5px solid var(--line);
         padding: 26px 40px;

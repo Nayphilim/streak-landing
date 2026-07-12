@@ -1,0 +1,1623 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Streak — the habit app that doesn't nag</title>
+    <meta
+      name="description"
+      content="Streak is a concept habit-app marketing site — part of the Nathan AI Solutions portfolio."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='oklch(0.72 0.15 60)'/%3E%3C/svg%3E"
+    />
+  </head>
+  <body>
+    <nav
+      class="wrap"
+      style="
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 40px;
+        position: sticky;
+        top: 0;
+        z-index: 40;
+        background: rgba(253, 248, 239, 0.92);
+        backdrop-filter: blur(10px);
+        border-bottom: 1.5px solid var(--line);
+      "
+    >
+      <a
+        href="#top"
+        style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit"
+      >
+        <div style="width: 30px; height: 30px; border-radius: 50%; background: var(--orange)"></div>
+        <span style="font-size: 18px; font-weight: 800; letter-spacing: -0.02em">App!</span>
+      </a>
+      <div style="display: flex; gap: 26px; font-size: 14px; font-weight: 600">
+        <a href="#how" style="text-decoration: none; color: inherit">How it works</a>
+        <a href="#reviews" style="text-decoration: none; color: inherit">Reviews</a>
+        <a href="#faq" style="text-decoration: none; color: inherit">FAQ</a>
+      </div>
+      <a
+        href="#download"
+        style="
+          background: var(--ink);
+          color: var(--cream);
+          font-size: 14px;
+          font-weight: 700;
+          padding: 12px 24px;
+          border-radius: 999px;
+          text-decoration: none;
+        "
+        >Download free</a
+      >
+    </nav>
+
+    <main id="top">
+      <section
+        class="hero-grid wrap"
+        style="
+          display: grid;
+          grid-template-columns: 1.15fr 1fr;
+          padding: 52px 40px 0;
+          gap: 20px;
+          align-items: center;
+          overflow: hidden;
+          position: relative;
+        "
+      >
+        <div style="display: flex; flex-direction: column; gap: 22px; padding-bottom: 64px">
+          <div style="overflow: hidden">
+            <h1
+              style="
+                font-size: 66px;
+                line-height: 1;
+                font-weight: 800;
+                letter-spacing: -0.035em;
+                text-wrap: balance;
+                animation: riseIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+              "
+            >
+              The habit app that doesn't
+              <span
+                style="
+                  background: var(--yellow);
+                  padding: 0 12px;
+                  border-radius: 12px;
+                  display: inline-block;
+                  transform: rotate(-1.5deg);
+                "
+                >nag.</span
+              >
+            </h1>
+          </div>
+          <p
+            style="
+              font-size: 16.5px;
+              line-height: 1.6;
+              color: var(--muted);
+              max-width: 40ch;
+              font-weight: 500;
+              animation: fadeIn 0.7s ease 0.35s both;
+            "
+          >
+            Placeholder pitch — friendly and human. Tiny wins every day, zero guilt when you miss
+            one.
+          </p>
+          <div
+            style="
+              display: flex;
+              gap: 14px;
+              align-items: center;
+              animation: fadeIn 0.7s ease 0.5s both;
+            "
+          >
+            <a
+              href="#download"
+              style="
+                background: var(--orange);
+                color: #fff;
+                font-size: 15px;
+                font-weight: 800;
+                padding: 16px 30px;
+                border-radius: 999px;
+                box-shadow: 0 4px 0 var(--orange-dk);
+                text-decoration: none;
+              "
+              >Get it free →</a
+            >
+            <div style="display: flex; flex-direction: column; line-height: 1.3">
+              <span style="font-size: 12.5px; font-weight: 700">4.9 ★ · 12k reviews</span>
+              <span style="font-size: 11.5px; color: var(--muted)">placeholder store rating</span>
+            </div>
+          </div>
+          <div
+            style="
+              display: flex;
+              gap: 8px;
+              font-size: 12px;
+              font-weight: 600;
+              color: var(--muted);
+              animation: fadeIn 0.7s ease 0.6s both;
+              flex-wrap: wrap;
+            "
+          >
+            <span style="border: 1.5px solid var(--line); padding: 7px 14px; border-radius: 999px">
+              iOS</span
+            >
+            <span style="border: 1.5px solid var(--line); padding: 7px 14px; border-radius: 999px"
+              >▷ Android</span
+            >
+            <span style="border: 1.5px solid var(--line); padding: 7px 14px; border-radius: 999px"
+              >100% free to try</span
+            >
+          </div>
+          <div
+            style="
+              display: flex;
+              gap: 8px;
+              align-items: center;
+              font-size: 13px;
+              font-weight: 600;
+              color: var(--orange-dk);
+              animation: fadeIn 0.7s ease 0.75s both;
+            "
+          >
+            <span style="animation: wiggle 2.5s ease-in-out infinite; display: inline-block"
+              >👉</span
+            >
+            Try it: tick off the walk in the phone
+          </div>
+        </div>
+        <div
+          style="
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 470px;
+            padding-top: 20px;
+            box-sizing: border-box;
+          "
+        >
+          <div
+            style="
+              position: absolute;
+              top: 14px;
+              right: 24px;
+              background: var(--red);
+              color: #fff;
+              font-weight: 800;
+              font-size: 12px;
+              padding: 12px 14px;
+              border-radius: 999px;
+              text-align: center;
+              line-height: 1.25;
+              z-index: 3;
+              animation: stickerPop 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 1.1s both;
+            "
+          >
+            day <span id="sticker-streak">12</span><br />streak!
+          </div>
+          <div
+            id="burst"
+            style="position: absolute; top: 40%; left: 50%; z-index: 4; pointer-events: none"
+          >
+            <span
+              data-c="0"
+              style="
+                position: absolute;
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background: var(--orange);
+                opacity: 0;
+                transition:
+                  transform 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+                  opacity 0.7s ease;
+              "
+            ></span>
+            <span
+              data-c="1"
+              style="
+                position: absolute;
+                width: 8px;
+                height: 8px;
+                border-radius: 2px;
+                background: var(--yellow);
+                opacity: 0;
+                transform: rotate(45deg);
+                transition:
+                  transform 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+                  opacity 0.7s ease;
+              "
+            ></span>
+            <span
+              data-c="2"
+              style="
+                position: absolute;
+                width: 9px;
+                height: 9px;
+                border-radius: 50%;
+                background: var(--sky);
+                opacity: 0;
+                transition:
+                  transform 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+                  opacity 0.7s ease;
+              "
+            ></span>
+            <span
+              data-c="3"
+              style="
+                position: absolute;
+                width: 7px;
+                height: 7px;
+                border-radius: 2px;
+                background: var(--red);
+                opacity: 0;
+                transform: rotate(30deg);
+                transition:
+                  transform 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+                  opacity 0.7s ease;
+              "
+            ></span>
+            <span
+              data-c="4"
+              style="
+                position: absolute;
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background: var(--orange);
+                opacity: 0;
+                transition:
+                  transform 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+                  opacity 0.7s ease;
+              "
+            ></span>
+            <span
+              data-c="5"
+              style="
+                position: absolute;
+                width: 8px;
+                height: 8px;
+                border-radius: 2px;
+                background: var(--yellow);
+                opacity: 0;
+                transform: rotate(60deg);
+                transition:
+                  transform 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+                  opacity 0.7s ease;
+              "
+            ></span>
+          </div>
+
+          <div
+            style="
+              position: absolute;
+              bottom: 24px;
+              left: 2%;
+              z-index: 3;
+              --tilt: -4deg;
+              animation: bob 3.4s ease-in-out infinite;
+            "
+          >
+            <div style="width: 64px; height: 92px; position: relative">
+              <span
+                style="
+                  position: absolute;
+                  top: -12px;
+                  left: 14px;
+                  width: 2.5px;
+                  height: 16px;
+                  background: var(--ink);
+                  transform-origin: bottom;
+                  animation: sway 2.8s ease-in-out infinite;
+                "
+                ><span
+                  style="
+                    position: absolute;
+                    top: -8px;
+                    left: -3.5px;
+                    width: 9px;
+                    height: 9px;
+                    border-radius: 50%;
+                    background: var(--red);
+                    border: 1.5px solid var(--ink);
+                    display: block;
+                  "
+                ></span
+              ></span>
+              <div
+                style="
+                  position: absolute;
+                  top: 2px;
+                  left: 0;
+                  width: 60px;
+                  height: 76px;
+                  border-radius: 34px 26px 30px 22px;
+                  background: var(--orange);
+                  border: 2px solid var(--ink);
+                  transform: rotate(-3deg);
+                "
+              >
+                <span
+                  style="
+                    position: absolute;
+                    top: 16px;
+                    left: 9px;
+                    width: 24px;
+                    height: 24px;
+                    border-radius: 50%;
+                    background: var(--cream);
+                    border: 2px solid var(--ink);
+                  "
+                  ><span
+                    style="
+                      position: absolute;
+                      top: 7px;
+                      left: 7px;
+                      width: 9px;
+                      height: 9px;
+                      border-radius: 50%;
+                      background: var(--ink);
+                      animation: look 5s ease-in-out infinite;
+                      display: block;
+                    "
+                  ></span
+                ></span>
+                <span
+                  style="
+                    position: absolute;
+                    top: 34px;
+                    right: 9px;
+                    width: 6px;
+                    height: 6px;
+                    border-radius: 50%;
+                    background: var(--ink);
+                    animation: blink 4.2s ease-in-out infinite;
+                  "
+                ></span>
+                <span
+                  style="
+                    position: absolute;
+                    top: 52px;
+                    left: 20px;
+                    width: 12px;
+                    height: 3px;
+                    border-radius: 2px;
+                    background: var(--ink);
+                    transform: rotate(-8deg);
+                  "
+                ></span>
+              </div>
+              <span
+                style="
+                  position: absolute;
+                  bottom: 0;
+                  left: 16px;
+                  width: 3px;
+                  height: 14px;
+                  background: var(--ink);
+                  border-radius: 2px;
+                "
+              ></span>
+              <span
+                style="
+                  position: absolute;
+                  bottom: 0;
+                  left: 34px;
+                  width: 3px;
+                  height: 11px;
+                  background: var(--ink);
+                  border-radius: 2px;
+                  transform: rotate(8deg);
+                "
+              ></span>
+            </div>
+          </div>
+
+          <div
+            style="
+              width: 252px;
+              height: 504px;
+              background: var(--ink);
+              border-radius: 40px;
+              padding: 10px;
+              transform: rotate(4deg);
+              box-shadow: 24px 24px 0 var(--yellow);
+              animation: phoneIn 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.15s both;
+            "
+          >
+            <div
+              style="
+                width: 100%;
+                height: 100%;
+                background: var(--cream);
+                border-radius: 32px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                padding: 18px;
+                box-sizing: border-box;
+                overflow: hidden;
+              "
+            >
+              <div
+                style="
+                  width: 60px;
+                  height: 16px;
+                  background: var(--ink);
+                  border-radius: 999px;
+                  margin: 0 auto;
+                  flex: none;
+                "
+              ></div>
+              <span
+                style="font-size: 20px; font-weight: 800; margin-top: 6px; letter-spacing: -0.02em"
+                >Today ✳</span
+              >
+              <div
+                style="
+                  background: var(--yellow);
+                  border-radius: 14px;
+                  padding: 12px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                "
+              >
+                <span style="font-size: 12px; font-weight: 700">Morning stretch</span
+                ><span
+                  style="
+                    width: 24px;
+                    height: 24px;
+                    border-radius: 50%;
+                    background: var(--orange);
+                    color: #fff;
+                    font-size: 11px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  "
+                  >✓</span
+                >
+              </div>
+              <div
+                style="
+                  background: var(--sky);
+                  border-radius: 14px;
+                  padding: 12px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                "
+              >
+                <span style="font-size: 12px; font-weight: 700">Read 10 pages</span
+                ><span
+                  style="
+                    width: 24px;
+                    height: 24px;
+                    border-radius: 50%;
+                    background: var(--orange);
+                    color: #fff;
+                    font-size: 11px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  "
+                  >✓</span
+                >
+              </div>
+              <button
+                id="walk-row"
+                style="
+                  background: #fff;
+                  border: 1.5px solid var(--line);
+                  border-radius: 14px;
+                  padding: 12px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  cursor: pointer;
+                  font-family: inherit;
+                  text-align: left;
+                  transition:
+                    background 0.3s ease,
+                    border-color 0.3s ease;
+                "
+              >
+                <span id="walk-label" style="font-size: 12px; font-weight: 700; color: var(--muted)"
+                  >Walk — 20 min</span
+                >
+                <span
+                  id="walk-tick"
+                  style="
+                    width: 24px;
+                    height: 24px;
+                    border-radius: 50%;
+                    background: transparent;
+                    border: 1.5px solid var(--line);
+                    color: #fff;
+                    font-size: 11px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transition: background 0.3s ease;
+                  "
+                ></span>
+              </button>
+              <div
+                id="celebrate-card"
+                style="
+                  background: var(--ink);
+                  color: var(--cream);
+                  border-radius: 14px;
+                  padding: 12px;
+                  text-align: center;
+                  font-size: 12px;
+                  font-weight: 700;
+                  display: none;
+                "
+              >
+                That's all 3 — day <span id="celebrate-streak">13</span> done 🎈
+              </div>
+              <div
+                style="
+                  margin-top: auto;
+                  display: flex;
+                  justify-content: space-between;
+                  font-size: 10.5px;
+                  color: var(--muted);
+                  font-weight: 600;
+                "
+              >
+                <span id="done-count">2 of 3 today</span
+                ><span id="foot-streak" style="color: var(--orange-dk)">12-day streak</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div
+        style="
+          border-top: 1.5px solid var(--ink);
+          border-bottom: 1.5px solid var(--ink);
+          background: var(--yellow);
+          padding: 12px 0;
+          overflow: hidden;
+        "
+      >
+        <div
+          style="
+            display: flex;
+            gap: 36px;
+            white-space: nowrap;
+            width: max-content;
+            animation: marquee 20s linear infinite;
+            font-size: 16px;
+            font-weight: 800;
+            letter-spacing: -0.01em;
+          "
+        >
+          <span>tiny wins</span><span>✳</span><span>every day</span><span>✳</span
+          ><span>no guilt</span><span>✳</span><span>just streaks</span><span>✳</span
+          ><span>tiny wins</span><span>✳</span><span>every day</span><span>✳</span
+          ><span>no guilt</span><span>✳</span><span>just streaks</span><span>✳</span
+          ><span>tiny wins</span><span>✳</span><span>every day</span><span>✳</span
+          ><span>no guilt</span><span>✳</span><span>just streaks</span><span>✳</span>
+        </div>
+      </div>
+
+      <section id="how" class="wrap" style="padding: 64px 40px">
+        <h2 style="margin-bottom: 32px; font-size: 40px; font-weight: 800; letter-spacing: -0.03em">
+          Three steps. That's the app.
+        </h2>
+        <div
+          class="how-grid"
+          style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px"
+        >
+          <div
+            data-io
+            style="
+              background: var(--yellow);
+              border: 2px solid var(--ink);
+              border-radius: 20px;
+              padding: 28px;
+              display: flex;
+              flex-direction: column;
+              gap: 12px;
+              transform: rotate(-1deg) translateY(24px);
+              opacity: 0;
+              transition:
+                opacity 0.7s ease,
+                transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+            "
+            data-final="rotate(-1deg) translateY(0)"
+          >
+            <div style="display: flex; justify-content: space-between; align-items: flex-start">
+              <span style="font-family: var(--mono); font-size: 12px; font-weight: 500">01</span>
+              <div
+                style="
+                  width: 56px;
+                  height: 36px;
+                  border-radius: 28px 28px 4px 4px;
+                  background: var(--orange);
+                  position: relative;
+                  border: 2px solid var(--ink);
+                "
+              >
+                <span
+                  style="
+                    position: absolute;
+                    top: 12px;
+                    left: 8px;
+                    width: 5px;
+                    height: 5px;
+                    border-radius: 50%;
+                    background: var(--ink);
+                    animation: blink 4.6s ease-in-out infinite;
+                  "
+                ></span>
+                <span
+                  style="
+                    position: absolute;
+                    top: 10px;
+                    left: 22px;
+                    width: 9px;
+                    height: 9px;
+                    border-radius: 50%;
+                    background: var(--cream);
+                    border: 1.5px solid var(--ink);
+                  "
+                  ><span
+                    style="
+                      position: absolute;
+                      top: 2px;
+                      left: 2px;
+                      width: 3.5px;
+                      height: 3.5px;
+                      border-radius: 50%;
+                      background: var(--ink);
+                      animation: look 4.4s ease-in-out infinite;
+                      display: block;
+                    "
+                  ></span
+                ></span>
+                <span
+                  style="
+                    position: absolute;
+                    top: 12px;
+                    right: 8px;
+                    width: 5px;
+                    height: 5px;
+                    border-radius: 50%;
+                    background: var(--ink);
+                    animation: blink 5.2s ease-in-out 0.6s infinite;
+                  "
+                ></span>
+                <span
+                  style="
+                    position: absolute;
+                    bottom: 5px;
+                    left: 24px;
+                    width: 7px;
+                    height: 3px;
+                    background: var(--ink);
+                    border-radius: 2px;
+                    transform: rotate(6deg);
+                  "
+                ></span>
+                <span
+                  style="
+                    position: absolute;
+                    bottom: -10px;
+                    left: 12px;
+                    width: 3px;
+                    height: 9px;
+                    background: var(--ink);
+                    border-radius: 2px;
+                  "
+                ></span>
+                <span
+                  style="
+                    position: absolute;
+                    bottom: -10px;
+                    right: 12px;
+                    width: 3px;
+                    height: 9px;
+                    background: var(--ink);
+                    border-radius: 2px;
+                    transform: rotate(-10deg);
+                  "
+                ></span>
+              </div>
+            </div>
+            <span style="font-size: 22px; font-weight: 800; letter-spacing: -0.01em"
+              >Pick 3 tiny habits</span
+            >
+            <p
+              style="margin: 0; font-size: 14px; line-height: 1.6; font-weight: 500; color: #4d4638"
+            >
+              Placeholder copy — small enough that skipping feels sillier than doing.
+            </p>
+          </div>
+          <div
+            data-io
+            style="
+              background: var(--sky);
+              border: 2px solid var(--ink);
+              border-radius: 20px;
+              padding: 28px;
+              display: flex;
+              flex-direction: column;
+              gap: 12px;
+              transform: rotate(1.2deg) translateY(24px);
+              opacity: 0;
+              transition:
+                opacity 0.7s ease 0.12s,
+                transform 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.12s;
+            "
+            data-final="rotate(1.2deg) translateY(0)"
+          >
+            <div style="display: flex; justify-content: space-between; align-items: flex-start">
+              <span style="font-family: var(--mono); font-size: 12px; font-weight: 500">02</span>
+              <div
+                style="
+                  width: 26px;
+                  height: 54px;
+                  border-radius: 13px 13px 8px 8px;
+                  background: var(--red);
+                  position: relative;
+                  border: 2px solid var(--ink);
+                  transform: rotate(7deg);
+                "
+              >
+                <span
+                  style="
+                    position: absolute;
+                    top: 8px;
+                    left: 4px;
+                    width: 14px;
+                    height: 14px;
+                    border-radius: 50%;
+                    background: var(--cream);
+                    border: 1.5px solid var(--ink);
+                  "
+                  ><span
+                    style="
+                      position: absolute;
+                      top: 4px;
+                      left: 4px;
+                      width: 5px;
+                      height: 5px;
+                      border-radius: 50%;
+                      background: var(--ink);
+                      animation: look 3.8s ease-in-out infinite;
+                      display: block;
+                    "
+                  ></span
+                ></span>
+                <span
+                  style="
+                    position: absolute;
+                    top: 32px;
+                    left: 8px;
+                    width: 8px;
+                    height: 2.5px;
+                    background: var(--cream);
+                    border-radius: 2px;
+                    transform: rotate(-12deg);
+                  "
+                ></span>
+                <span
+                  style="
+                    position: absolute;
+                    top: 18px;
+                    left: -11px;
+                    width: 11px;
+                    height: 2.5px;
+                    background: var(--ink);
+                    border-radius: 2px;
+                    transform: rotate(24deg);
+                  "
+                ></span>
+                <span
+                  style="
+                    position: absolute;
+                    top: 16px;
+                    right: -11px;
+                    width: 11px;
+                    height: 2.5px;
+                    background: var(--ink);
+                    border-radius: 2px;
+                    transform: rotate(-32deg);
+                  "
+                ></span>
+              </div>
+            </div>
+            <span style="font-size: 22px; font-weight: 800; letter-spacing: -0.01em"
+              >Tick them off</span
+            >
+            <p
+              style="margin: 0; font-size: 14px; line-height: 1.6; font-weight: 500; color: #3f4d51"
+            >
+              Placeholder copy — one tap, a little celebration, done before breakfast.
+            </p>
+          </div>
+          <div
+            data-io
+            style="
+              background: #fff;
+              border: 2px solid var(--ink);
+              border-radius: 20px;
+              padding: 28px;
+              display: flex;
+              flex-direction: column;
+              gap: 12px;
+              transform: rotate(-0.8deg) translateY(24px);
+              opacity: 0;
+              transition:
+                opacity 0.7s ease 0.24s,
+                transform 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.24s;
+            "
+            data-final="rotate(-0.8deg) translateY(0)"
+          >
+            <div style="display: flex; justify-content: space-between; align-items: flex-start">
+              <span style="font-family: var(--mono); font-size: 12px; font-weight: 500">03</span>
+              <div
+                style="
+                  width: 44px;
+                  height: 44px;
+                  background: var(--orange-dk);
+                  position: relative;
+                  border: 2px solid var(--ink);
+                  transform: rotate(45deg);
+                  border-radius: 10px;
+                "
+              >
+                <span
+                  style="
+                    position: absolute;
+                    top: 10px;
+                    left: 10px;
+                    width: 16px;
+                    height: 16px;
+                    border-radius: 50%;
+                    background: var(--cream);
+                    border: 1.5px solid var(--ink);
+                    transform: rotate(-45deg);
+                  "
+                  ><span
+                    style="
+                      position: absolute;
+                      top: 5px;
+                      left: 5px;
+                      width: 6px;
+                      height: 6px;
+                      border-radius: 50%;
+                      background: var(--ink);
+                      animation: look 4.9s ease-in-out infinite;
+                      display: block;
+                    "
+                  ></span
+                ></span>
+                <span
+                  style="
+                    position: absolute;
+                    bottom: 8px;
+                    right: 7px;
+                    width: 4px;
+                    height: 4px;
+                    border-radius: 50%;
+                    background: var(--cream);
+                    animation: blink 4.3s ease-in-out infinite;
+                  "
+                ></span>
+                <span
+                  style="
+                    position: absolute;
+                    bottom: 14px;
+                    right: 16px;
+                    width: 2.5px;
+                    height: 8px;
+                    background: var(--cream);
+                    border-radius: 2px;
+                    transform: rotate(45deg);
+                  "
+                ></span>
+              </div>
+            </div>
+            <span style="font-size: 22px; font-weight: 800; letter-spacing: -0.01em"
+              >Watch streaks grow</span
+            >
+            <p
+              style="
+                margin: 0;
+                font-size: 14px;
+                line-height: 1.6;
+                font-weight: 500;
+                color: var(--muted);
+              "
+            >
+              Placeholder copy — miss a day? The streak bends instead of breaking.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="gentle-grid wrap"
+        style="
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 48px;
+          padding: 24px 40px 72px;
+          align-items: center;
+        "
+      >
+        <div
+          data-io
+          style="
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            opacity: 0;
+            transform: translateY(24px);
+            transition:
+              opacity 0.8s ease,
+              transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+          "
+          data-final="translateY(0)"
+        >
+          <span
+            style="
+              background: var(--sky);
+              border: 1.5px solid var(--ink);
+              font-size: 11px;
+              font-weight: 800;
+              letter-spacing: 0.06em;
+              padding: 6px 14px;
+              border-radius: 999px;
+              width: fit-content;
+            "
+            >GENTLE BY DESIGN</span
+          >
+          <h2 style="font-size: 36px; font-weight: 800; letter-spacing: -0.03em; max-width: 16ch">
+            Reminders that feel like a friend, not a boss
+          </h2>
+          <p
+            style="
+              margin: 0;
+              font-size: 15px;
+              line-height: 1.65;
+              color: var(--muted);
+              font-weight: 500;
+              max-width: 44ch;
+            "
+          >
+            Placeholder copy. One nudge a day, worded like a human. Miss a habit and the app shrugs
+            with you — "streak bent, not broken."
+          </p>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 12px">
+          <div
+            data-io
+            style="
+              background: #fff;
+              border: 2px solid var(--ink);
+              border-radius: 16px;
+              padding: 16px 20px;
+              display: flex;
+              gap: 12px;
+              align-items: center;
+              box-shadow: 6px 6px 0 var(--sky);
+              opacity: 0;
+              transform: translateY(20px);
+              transition:
+                opacity 0.6s ease 0.15s,
+                transform 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.15s;
+            "
+            data-final="translateY(0)"
+          >
+            <div
+              style="
+                width: 34px;
+                height: 34px;
+                border-radius: 10px 10px 10px 2px;
+                background: var(--orange);
+                flex: none;
+                position: relative;
+                border: 1.5px solid var(--ink);
+                transform: rotate(-4deg);
+              "
+            >
+              <span
+                style="
+                  position: absolute;
+                  top: 7px;
+                  left: 6px;
+                  width: 13px;
+                  height: 13px;
+                  border-radius: 50%;
+                  background: var(--cream);
+                  border: 1.5px solid var(--ink);
+                "
+                ><span
+                  style="
+                    position: absolute;
+                    top: 4px;
+                    left: 4px;
+                    width: 4.5px;
+                    height: 4.5px;
+                    border-radius: 50%;
+                    background: var(--ink);
+                    animation: look 4.2s ease-in-out infinite;
+                    display: block;
+                  "
+                ></span
+              ></span>
+              <span
+                style="
+                  position: absolute;
+                  top: 13px;
+                  right: 5px;
+                  width: 3.5px;
+                  height: 3.5px;
+                  border-radius: 50%;
+                  background: var(--ink);
+                  animation: blink 4.8s ease-in-out infinite;
+                "
+              ></span>
+              <span
+                style="
+                  position: absolute;
+                  bottom: 5px;
+                  right: 7px;
+                  width: 7px;
+                  height: 2.5px;
+                  background: var(--ink);
+                  border-radius: 2px;
+                  transform: rotate(10deg);
+                "
+              ></span>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 2px">
+              <span style="font-size: 13px; font-weight: 800">App! · now</span
+              ><span style="font-size: 13px; color: var(--muted); font-weight: 500"
+                >Your walk is still out there. No rush — it's light until 9.</span
+              >
+            </div>
+          </div>
+          <div
+            data-io
+            style="
+              background: #fff;
+              border: 2px solid var(--ink);
+              border-radius: 16px;
+              padding: 16px 20px;
+              display: flex;
+              gap: 12px;
+              align-items: center;
+              box-shadow: 6px 6px 0 var(--yellow);
+              margin-left: 32px;
+              opacity: 0;
+              transform: translateY(20px);
+              transition:
+                opacity 0.6s ease 0.3s,
+                transform 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.3s;
+            "
+            data-final="translateY(0)"
+          >
+            <div
+              style="
+                width: 34px;
+                height: 34px;
+                border-radius: 17px 17px 5px 17px;
+                background: var(--sky);
+                flex: none;
+                position: relative;
+                border: 1.5px solid var(--ink);
+                transform: rotate(3deg);
+              "
+            >
+              <span
+                style="
+                  position: absolute;
+                  top: 9px;
+                  left: 7px;
+                  width: 4px;
+                  height: 7px;
+                  border-radius: 3px;
+                  background: var(--ink);
+                  animation: blink 5.3s ease-in-out infinite;
+                "
+              ></span>
+              <span
+                style="
+                  position: absolute;
+                  top: 9px;
+                  right: 9px;
+                  width: 4px;
+                  height: 7px;
+                  border-radius: 3px;
+                  background: var(--ink);
+                  animation: blink 5.3s ease-in-out 0.4s infinite;
+                "
+              ></span>
+              <span
+                style="
+                  position: absolute;
+                  bottom: 7px;
+                  left: 11px;
+                  width: 9px;
+                  height: 4px;
+                  border-radius: 0 0 8px 8px;
+                  background: var(--ink);
+                "
+              ></span>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 2px">
+              <span style="font-size: 13px; font-weight: 800">App! · yesterday</span
+              ><span style="font-size: 13px; color: var(--muted); font-weight: 500"
+                >Missed Tuesday? Streak bent, not broken. Day 11 still counts.</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="reviews"
+        class="wrap"
+        style="background: var(--ink); color: var(--cream); padding: 64px 40px"
+      >
+        <div
+          style="
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 32px;
+            flex-wrap: wrap;
+            gap: 16px;
+          "
+        >
+          <h2 style="font-size: 40px; font-weight: 800; letter-spacing: -0.03em">
+            12,000 people, mostly still streaking
+          </h2>
+          <span style="font-size: 13px; color: #a89d8c; font-weight: 500"
+            >4.9 ★ average · placeholder stores</span
+          >
+        </div>
+        <div
+          class="reviews-grid"
+          style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px"
+        >
+          <div
+            data-io
+            data-final="rotate(-1.2deg) translateY(0)"
+            style="
+              background: var(--cream);
+              color: var(--ink);
+              border-radius: 18px;
+              padding: 24px;
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+              transform: rotate(-1.2deg) translateY(24px);
+              opacity: 0;
+              transition:
+                opacity 0.7s ease,
+                transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+            "
+          >
+            <span style="color: var(--orange-dk); letter-spacing: 1px; font-size: 14px">★★★★★</span>
+            <p style="margin: 0; font-size: 14.5px; line-height: 1.6; font-weight: 600">
+              "Placeholder review. Day 47. My longest streak in anything, including relationships."
+            </p>
+            <span style="font-size: 12px; color: var(--muted); font-weight: 600; margin-top: auto"
+              >App Store · June 2026</span
+            >
+          </div>
+          <div
+            data-io
+            data-final="rotate(1deg) translateY(0)"
+            style="
+              background: var(--cream);
+              color: var(--ink);
+              border-radius: 18px;
+              padding: 24px;
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+              transform: rotate(1deg) translateY(24px);
+              opacity: 0;
+              transition:
+                opacity 0.7s ease 0.12s,
+                transform 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.12s;
+            "
+          >
+            <span style="color: var(--orange-dk); letter-spacing: 1px; font-size: 14px">★★★★★</span>
+            <p style="margin: 0; font-size: 14.5px; line-height: 1.6; font-weight: 600">
+              "Placeholder review. The missed-day message made me laugh instead of quit. That's the
+              whole trick."
+            </p>
+            <span style="font-size: 12px; color: var(--muted); font-weight: 600; margin-top: auto"
+              >Google Play · June 2026</span
+            >
+          </div>
+          <div
+            data-io
+            data-final="rotate(-0.6deg) translateY(0)"
+            style="
+              background: var(--cream);
+              color: var(--ink);
+              border-radius: 18px;
+              padding: 24px;
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+              transform: rotate(-0.6deg) translateY(24px);
+              opacity: 0;
+              transition:
+                opacity 0.7s ease 0.24s,
+                transform 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.24s;
+            "
+          >
+            <span style="color: var(--orange-dk); letter-spacing: 1px; font-size: 14px">★★★★☆</span>
+            <p style="margin: 0; font-size: 14.5px; line-height: 1.6; font-weight: 600">
+              "Placeholder review. Wish I could have 4 habits on free. Otherwise perfect — and I say
+              that grudgingly."
+            </p>
+            <span style="font-size: 12px; color: var(--muted); font-weight: 600; margin-top: auto"
+              >App Store · May 2026</span
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" style="padding: 64px 40px; max-width: 760px; margin: 0 auto">
+        <h2 style="margin-bottom: 24px; font-size: 40px; font-weight: 800; letter-spacing: -0.03em">
+          Fair questions
+        </h2>
+        <div id="faq-list" style="display: flex; flex-direction: column"></div>
+      </section>
+
+      <section
+        id="download"
+        style="
+          margin: 0 auto 64px;
+          max-width: 1240px;
+          width: calc(100% - 80px);
+          background: var(--orange);
+          border: 2px solid var(--ink);
+          border-radius: 28px;
+          padding: 56px 48px;
+          display: flex;
+          flex-direction: column;
+          gap: 22px;
+          align-items: center;
+          text-align: center;
+          position: relative;
+          overflow: hidden;
+          box-shadow: 12px 12px 0 var(--yellow);
+        "
+      >
+        <div
+          style="
+            position: absolute;
+            top: 20px;
+            left: 36px;
+            background: var(--cream);
+            font-weight: 800;
+            font-size: 12px;
+            padding: 10px 14px;
+            border-radius: 999px;
+            transform: rotate(-8deg);
+          "
+        >
+          free forever plan ✳
+        </div>
+        <div style="display: flex; gap: 16px; align-items: flex-end">
+          <div style="--tilt: -5deg; animation: bob 3.1s ease-in-out infinite">
+            <div
+              style="
+                width: 54px;
+                height: 44px;
+                border-radius: 27px 27px 6px 6px;
+                background: var(--yellow);
+                position: relative;
+                border: 2px solid var(--ink);
+              "
+            >
+              <span
+                style="
+                  position: absolute;
+                  top: 12px;
+                  left: 10px;
+                  width: 18px;
+                  height: 18px;
+                  border-radius: 50%;
+                  background: var(--cream);
+                  border: 2px solid var(--ink);
+                "
+                ><span
+                  style="
+                    position: absolute;
+                    top: 5px;
+                    left: 5px;
+                    width: 7px;
+                    height: 7px;
+                    border-radius: 50%;
+                    background: var(--ink);
+                    animation: look 4.4s ease-in-out infinite;
+                    display: block;
+                  "
+                ></span
+              ></span>
+              <span
+                style="
+                  position: absolute;
+                  top: 20px;
+                  right: 10px;
+                  width: 5px;
+                  height: 5px;
+                  border-radius: 50%;
+                  background: var(--ink);
+                  animation: blink 4.4s ease-in-out infinite;
+                "
+              ></span>
+              <span
+                style="
+                  position: absolute;
+                  bottom: -11px;
+                  left: 14px;
+                  width: 3px;
+                  height: 10px;
+                  background: var(--ink);
+                  border-radius: 2px;
+                "
+              ></span>
+              <span
+                style="
+                  position: absolute;
+                  bottom: -11px;
+                  right: 14px;
+                  width: 3px;
+                  height: 10px;
+                  background: var(--ink);
+                  border-radius: 2px;
+                  transform: rotate(-12deg);
+                "
+              ></span>
+            </div>
+          </div>
+          <div style="--tilt: 4deg; animation: bob 3.7s ease-in-out 0.4s infinite">
+            <div
+              style="
+                width: 24px;
+                height: 58px;
+                border-radius: 12px 12px 6px 6px;
+                background: var(--cream);
+                position: relative;
+                border: 2px solid var(--ink);
+                transform: rotate(5deg);
+              "
+            >
+              <span
+                style="
+                  position: absolute;
+                  top: -11px;
+                  left: 9px;
+                  width: 2.5px;
+                  height: 12px;
+                  background: var(--ink);
+                  transform-origin: bottom;
+                  animation: sway 3.2s ease-in-out infinite;
+                "
+                ><span
+                  style="
+                    position: absolute;
+                    top: -7px;
+                    left: -3px;
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    background: var(--orange);
+                    border: 1.5px solid var(--ink);
+                    display: block;
+                  "
+                ></span
+              ></span>
+              <span
+                style="
+                  position: absolute;
+                  top: 10px;
+                  left: 5px;
+                  width: 12px;
+                  height: 12px;
+                  border-radius: 50%;
+                  background: var(--ink);
+                "
+                ><span
+                  style="
+                    position: absolute;
+                    top: 3px;
+                    left: 3px;
+                    width: 4px;
+                    height: 4px;
+                    border-radius: 50%;
+                    background: var(--cream);
+                    animation: look 5s ease-in-out infinite;
+                    display: block;
+                  "
+                ></span
+              ></span>
+              <span
+                style="
+                  position: absolute;
+                  top: 32px;
+                  left: 7px;
+                  width: 8px;
+                  height: 2.5px;
+                  background: var(--ink);
+                  border-radius: 2px;
+                  transform: rotate(-14deg);
+                "
+              ></span>
+            </div>
+          </div>
+          <div style="--tilt: -3deg; animation: bob 2.9s ease-in-out 0.8s infinite">
+            <div
+              style="
+                width: 46px;
+                height: 46px;
+                background: var(--sky);
+                position: relative;
+                border: 2px solid var(--ink);
+                border-radius: 8px;
+                transform: rotate(45deg);
+              "
+            >
+              <span
+                style="
+                  position: absolute;
+                  top: 9px;
+                  left: 9px;
+                  width: 6px;
+                  height: 6px;
+                  border-radius: 50%;
+                  background: var(--ink);
+                  transform: rotate(-45deg);
+                  animation: blink 4.1s ease-in-out infinite;
+                "
+              ></span>
+              <span
+                style="
+                  position: absolute;
+                  top: 20px;
+                  left: 19px;
+                  width: 11px;
+                  height: 11px;
+                  border-radius: 50%;
+                  background: var(--cream);
+                  border: 1.5px solid var(--ink);
+                  transform: rotate(-45deg);
+                "
+                ><span
+                  style="
+                    position: absolute;
+                    top: 3px;
+                    left: 3px;
+                    width: 4px;
+                    height: 4px;
+                    border-radius: 50%;
+                    background: var(--ink);
+                    animation: look 3.6s ease-in-out infinite;
+                    display: block;
+                  "
+                ></span
+              ></span>
+              <span
+                style="
+                  position: absolute;
+                  bottom: 8px;
+                  left: 9px;
+                  width: 8px;
+                  height: 2.5px;
+                  background: var(--ink);
+                  border-radius: 2px;
+                  transform: rotate(-45deg);
+                "
+              ></span>
+            </div>
+          </div>
+        </div>
+        <h2
+          style="
+            font-size: 46px;
+            font-weight: 800;
+            letter-spacing: -0.035em;
+            color: #fff;
+            max-width: 18ch;
+            text-wrap: balance;
+          "
+        >
+          Start a streak you'll actually keep.
+        </h2>
+        <div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center">
+          <span
+            style="
+              display: flex;
+              gap: 10px;
+              align-items: center;
+              background: var(--ink);
+              color: var(--cream);
+              padding: 13px 26px;
+              border-radius: 14px;
+              cursor: pointer;
+            "
+            ><div
+              style="display: flex; flex-direction: column; line-height: 1.15; text-align: left"
+            >
+              <span style="font-size: 10px; opacity: 0.7">Download on the</span
+              ><span style="font-size: 15px; font-weight: 800">App Store</span>
+            </div></span
+          >
+          <span
+            style="
+              display: flex;
+              gap: 10px;
+              align-items: center;
+              background: var(--cream);
+              color: var(--ink);
+              padding: 13px 26px;
+              border-radius: 14px;
+              cursor: pointer;
+            "
+            ><span style="font-size: 15px">▷</span>
+            <div style="display: flex; flex-direction: column; line-height: 1.15; text-align: left">
+              <span style="font-size: 10px; color: var(--muted)">Get it on</span
+              ><span style="font-size: 15px; font-weight: 800">Google Play</span>
+            </div></span
+          >
+        </div>
+        <span style="font-size: 12.5px; color: rgba(255, 255, 255, 0.85); font-weight: 600"
+          >Free plan forever · Plus at £2.99/mo · placeholder terms</span
+        >
+      </section>
+    </main>
+
+    <footer
+      class="wrap"
+      style="
+        border-top: 1.5px solid var(--line);
+        padding: 26px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 12.5px;
+        color: var(--muted);
+        flex-wrap: wrap;
+        gap: 12px;
+      "
+    >
+      <div style="display: flex; align-items: center; gap: 8px">
+        <div style="width: 22px; height: 22px; border-radius: 50%; background: var(--orange)"></div>
+        <span style="font-weight: 800; color: var(--ink)">App!</span>
+      </div>
+      <span style="font-family: var(--mono); font-size: 10.5px"
+        >CONCEPT MOCKUP — PLACEHOLDER BRAND FOR PORTFOLIO DEMONSTRATION</span
+      >
+      <div style="display: flex; gap: 22px; font-weight: 600">
+        <span>Privacy</span><span>Terms</span>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

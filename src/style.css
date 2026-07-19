@@ -184,3 +184,14 @@ input::placeholder {
     grid-template-columns: 1fr !important;
   }
 }
+
+/* Mobile nav: drop anchor links, keep logo + Download CTA. */
+@media (max-width: 760px) {
+  .nav-links {
+    display: none !important;
+  }
+  nav.wrap {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
